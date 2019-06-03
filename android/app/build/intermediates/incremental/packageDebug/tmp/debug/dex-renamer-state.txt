@@ -1,0 +1,4 @@
+#Sat Jun 01 16:47:06 BRT 2019
+base.0=/home/henrique/Projects/medicalReminder/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

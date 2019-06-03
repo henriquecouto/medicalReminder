@@ -1,0 +1,164 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [com.facebook.react:react-native:0.57.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/67b23e704d9bf0ac1be36155574e9450/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c6c8c179d71652d8aa93c764c5f7cedd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/8f8155bfa7e9edc424a4e1cbee35737c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/7ddebbff60a3b1bb26bde517f32cb8b4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/1245b77d11cf3b31e653433f3ed6a7ec/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/e5f9e3972750df490339af85a723a7a1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/eab07204d32f490695bef842f50cb3d4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/6dbeeee87c73d307b176a26298bd14f5/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /home/henrique/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/34ff92243b6c21ba45102400c678a01d/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/7d311a273cd2e594e4728e5544f2a332/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a0eb97ecc26b48430aa8693842d3b66a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/91a0820627db3ceb9f0bf656475b7757/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a705e642b61a5779dbc9bcf48b7228ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1675aab6051747bf36e4b0b922c19c9b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/6a3f14d5ca334e5656f81ba17ad895e6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/379ecd5d20daca0343765c17a36a365f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/555aee13e89adc7c82af9a79bf4790e1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/44c787a635ba35038da80112b0c4e9e0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d41ef435d9e202f45765fe11c2b2d070/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/00eeec07038e45249ebd9c937e65d06f/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:2:5-34
+		INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-67
+MERGED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/67b23e704d9bf0ac1be36155574e9450/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/67b23e704d9bf0ac1be36155574e9450/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/67b23e704d9bf0ac1be36155574e9450/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/67b23e704d9bf0ac1be36155574e9450/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/6dbeeee87c73d307b176a26298bd14f5/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/6dbeeee87c73d307b176a26298bd14f5/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /home/henrique/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/34ff92243b6c21ba45102400c678a01d/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/henrique/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/34ff92243b6c21ba45102400c678a01d/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.medicalreminder.MainActivity
+ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-11:54
+MERGED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-11:54
+MERGED from [com.facebook.react:react-native:0.57.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/67b23e704d9bf0ac1be36155574e9450/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/67b23e704d9bf0ac1be36155574e9450/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c6c8c179d71652d8aa93c764c5f7cedd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c6c8c179d71652d8aa93c764c5f7cedd/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/8f8155bfa7e9edc424a4e1cbee35737c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/8f8155bfa7e9edc424a4e1cbee35737c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/7ddebbff60a3b1bb26bde517f32cb8b4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/7ddebbff60a3b1bb26bde517f32cb8b4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/1245b77d11cf3b31e653433f3ed6a7ec/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/1245b77d11cf3b31e653433f3ed6a7ec/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/e5f9e3972750df490339af85a723a7a1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/e5f9e3972750df490339af85a723a7a1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/eab07204d32f490695bef842f50cb3d4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/eab07204d32f490695bef842f50cb3d4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/6dbeeee87c73d307b176a26298bd14f5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/6dbeeee87c73d307b176a26298bd14f5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/7d311a273cd2e594e4728e5544f2a332/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/7d311a273cd2e594e4728e5544f2a332/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a0eb97ecc26b48430aa8693842d3b66a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a0eb97ecc26b48430aa8693842d3b66a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/91a0820627db3ceb9f0bf656475b7757/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/91a0820627db3ceb9f0bf656475b7757/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a705e642b61a5779dbc9bcf48b7228ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a705e642b61a5779dbc9bcf48b7228ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1675aab6051747bf36e4b0b922c19c9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1675aab6051747bf36e4b0b922c19c9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/6a3f14d5ca334e5656f81ba17ad895e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/6a3f14d5ca334e5656f81ba17ad895e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/379ecd5d20daca0343765c17a36a365f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/379ecd5d20daca0343765c17a36a365f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/555aee13e89adc7c82af9a79bf4790e1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/555aee13e89adc7c82af9a79bf4790e1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/44c787a635ba35038da80112b0c4e9e0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/44c787a635ba35038da80112b0c4e9e0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d41ef435d9e202f45765fe11c2b2d070/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d41ef435d9e202f45765fe11c2b2d070/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/00eeec07038e45249ebd9c937e65d06f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/henrique/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/00eeec07038e45249ebd9c937e65d06f/AndroidManifest.xml:20:5-44
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:9-51
+	android:targetSdkVersion
+		INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
