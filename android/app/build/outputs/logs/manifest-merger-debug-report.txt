@@ -4,6 +4,7 @@ ADDED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidM
 INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-tts] /home/henrique/Projects/medicalReminder/node_modules/react-native-tts/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-16:12
 MERGED from [com.facebook.react:react-native:0.57.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/67b23e704d9bf0ac1be36155574e9450/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c6c8c179d71652d8aa93c764c5f7cedd/AndroidManifest.xml:17:1-22:12
@@ -100,6 +101,8 @@ uses-sdk
 INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/henrique/Projects/medicalReminder/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-tts] /home/henrique/Projects/medicalReminder/node_modules/react-native-tts/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-tts] /home/henrique/Projects/medicalReminder/node_modules/react-native-tts/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-11:54
 MERGED from [:react-native-voice] /home/henrique/Projects/medicalReminder/node_modules/react-native-voice/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-11:54
 MERGED from [com.facebook.react:react-native:0.57.1] /home/henrique/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/67b23e704d9bf0ac1be36155574e9450/AndroidManifest.xml:7:5-9:41

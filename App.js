@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Plataform, StyleSheet, Text, View, Button, TextInput } from 'react-native'
 import Voice from 'react-native-voice'
+import Tts from 'react-native-tts'
 
 export default class App extends Component {
 
@@ -12,6 +13,7 @@ export default class App extends Component {
     started: '',
     results: [],
     partialResults: [],
+    chat: []
   }
 
   constructor(props) {
@@ -23,6 +25,8 @@ export default class App extends Component {
     Voice.onSpeechResults = this.onSpeechResults
     Voice.onSpeechPartialResults = this.onSpeechPartialResults
     Voice.onSpeechVolumeChanged = this.onSpeechVolumeChanged
+
+    Tts.setDefaultLanguage('pt-BR')
   }
 
   componentWillUnmount() {
@@ -34,7 +38,6 @@ export default class App extends Component {
   }
 
   onSpeechStart = e => {
-    // eslint-disable-next-line
     console.log('onSpeechStart: ', e)
     this.setState({
       started: '√',
@@ -42,7 +45,6 @@ export default class App extends Component {
   }
 
   onSpeechRecognized = e => {
-    // eslint-disable-next-line
     console.log('onSpeechRecognized: ', e)
     this.setState({
       recognized: '√',
@@ -50,15 +52,16 @@ export default class App extends Component {
   }
 
   onSpeechEnd = e => {
-    // eslint-disable-next-line
+    const { chat, partialResults } = this.state
     console.log('onSpeechEnd: ', e)
     this.setState({
       end: '√',
+      chat: [...chat, partialResults]
     })
+    Tts.speak(partialResults[0])
   }
 
   onSpeechError = e => {
-    // eslint-disable-next-line
     console.log('onSpeechError: ', e)
     this.setState({
       error: JSON.stringify(e.error),
@@ -66,7 +69,6 @@ export default class App extends Component {
   }
 
   onSpeechResults = e => {
-    // eslint-disable-next-line
     console.log('onSpeechResults: ', e)
     this.setState({
       results: e.value,
@@ -74,7 +76,6 @@ export default class App extends Component {
   }
 
   onSpeechPartialResults = e => {
-    // eslint-disable-next-line
     console.log('onSpeechPartialResults: ', e)
     this.setState({
       partialResults: e.value,
@@ -82,7 +83,6 @@ export default class App extends Component {
   }
 
   onSpeechVolumeChanged = e => {
-    // eslint-disable-next-line
     console.log('onSpeechVolumeChanged: ', e)
     this.setState({
       pitch: e.value,
@@ -96,14 +96,13 @@ export default class App extends Component {
       error: '',
       started: '',
       results: [],
-      partialResults: [],
+      // partialResults: [],
       end: '',
     })
 
     try {
-      await Voice.start('en-US')
+      await Voice.start('pt-BR')
     } catch (e) {
-      //eslint-disable-next-line
       console.error(e)
     }
   }
@@ -112,7 +111,6 @@ export default class App extends Component {
     try {
       await Voice.stop()
     } catch (e) {
-      //eslint-disable-next-line
       console.error(e)
     }
   }
@@ -121,7 +119,6 @@ export default class App extends Component {
     try {
       await Voice.cancel()
     } catch (e) {
-      //eslint-disable-next-line
       console.error(e)
     }
   }
@@ -130,7 +127,6 @@ export default class App extends Component {
     try {
       await Voice.destroy()
     } catch (e) {
-      //eslint-disable-next-line
       console.error(e)
     }
     this.setState({
@@ -145,11 +141,14 @@ export default class App extends Component {
   }
 
   render() {
-    const { input } = this.state
+    const { started, results, partialResults, error, end, chat } = this.state
     return (
       <View style={styles.container}>
         <Button onPress={this._startRecognizing} title='Start' />
-        <Text>{JSON.stringify(this.state)}</Text>
+        <Text style={styles.speaker}>Started: {started}</Text>
+        <Text style={styles.speaker}>End: {end}</Text>
+        <Text style={styles.speaker}>PartialResults: {partialResults.map(v => `${v}, `)}</Text>
+        <Text style={styles.speaker}>Chat: {chat.map(v => `${v}, `)}</Text>
       </View>
     )
   }
